@@ -41,7 +41,7 @@ namespace Koder
             ms.Close();
             // show ciphered text
             str = Encoding.Default.GetString(cipherbytes);
-            plainTextBox.Text = str;
+            cipherTextBox.Text = str;
             // decipher
             te = new byte[str.Length];
             te = Encoding.Default.GetBytes(str);
